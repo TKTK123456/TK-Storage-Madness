@@ -1,0 +1,23 @@
+{
+  "name": "tk-storage-madness",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "madness"
+  ],
+  "homepage": "https://github.com/TKTK123456/TK-Storage-Madness#readme",
+  "bugs": {
+    "url": "https://github.com/TKTK123456/TK-Storage-Madness/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TKTK123456/TK-Storage-Madness.git"
+  },
+  "license": "MIT",
+  "author": "TKTK1234567",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
