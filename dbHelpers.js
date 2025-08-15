@@ -166,7 +166,7 @@ export async function addTable(tableName, columns) {
 /**
  * Read rows (optional schema for reads)
  */
-export async function readTable(tableName, where = {}, limit = 100, schema = null) {
+export async function readTable(tableName, where = {}, limit = 200, schema = null) {
   let fullName = tableName.includes('.') ? tableName : `${schema || 'public'}.${tableName}`;
 
   if (!(await tableExists(fullName))) throw new Error(`Table "${fullName}" does not exist`);
