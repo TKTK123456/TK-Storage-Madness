@@ -19,5 +19,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.55.0",
+    "node-postgres": "^0.6.2",
+    "pg": "^8.16.3",
+    "postgrejs": "^2.22.6"
   }
 }
